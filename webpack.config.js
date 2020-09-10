@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     mode: 'development',
     devtool: 'eval-source-map',
@@ -13,11 +12,6 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'Webpack & Typescript Development Server Example',
-        }),
-    ],
     devServer: {
         contentBase: path.resolve(__dirname, 'dist')
     },
