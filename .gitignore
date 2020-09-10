@@ -2,8 +2,5 @@
 /node_modules/
 /.idea/misc.xml
 /.idea/modules.xml
-/package.json
-/package-lock.json
-/tsconfig.json
 /.idea/vcs.xml
 /.idea/webpack-tutorial.iml
